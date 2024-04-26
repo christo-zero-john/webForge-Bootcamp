@@ -122,10 +122,11 @@ select {
   text-align: center;
 }
 
-.apply section,
-.logo-gen section {
+.apply section {
   background-color: darkorange;
   color: white;
+  display: inline-block;
+  width: 40%;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -160,7 +161,14 @@ select {
 }
 
 .logo-gen section {
-  text-align: left;
+  
+    background-color: darkorange;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+  
 }
 
 .logo-gen section p {
@@ -186,24 +194,24 @@ footer img {
   display: inline-block;
 }
 
-footer *{
+footer * {
   color: white;
   font-size: 15px;
   font-weight: 100;
   margin: 15px 5px;
 }
 
-footer .links, .address{
-    width: 50%;
+footer .links,
+.address {
+  width: 50%;
 }
 
-footer .copy{
-    text-align: center;
-    font-size: 12px;
+footer .copy {
+  text-align: center;
+  font-size: 12px;
 }
 
-
-footer a:hover{
-    color: orange;
-    transition: all 0.5s;
+footer a:hover {
+  color: orange;
+  transition: all 0.5s;
 }
