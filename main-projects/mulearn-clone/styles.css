@@ -59,6 +59,11 @@ nav {
   padding: 10px;
 }
 
+nav img{
+    height: 50px;
+    width: auto;
+}
+
 nav img,
 nav ul {
   display: inline-block;
@@ -68,7 +73,7 @@ nav ul li {
   list-style: none;
   display: inline-block;
   margin: 0 10px;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   transition: all 0.5s;
 }
