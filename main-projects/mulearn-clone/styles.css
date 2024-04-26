@@ -6,16 +6,18 @@
   font-family: sans-serif;
 }
 
-img{
-    width: 50%;
+img {
+  width: 50%;
+  display: block;
+  margin: auto;
 }
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 40px;
 }
 
 p {
@@ -24,8 +26,7 @@ p {
 
 h1,
 h2,
-p,
-a {
+p {
   margin: 20px;
   line-height: 130%;
 }
@@ -50,8 +51,8 @@ a {
   margin: 20px;
 }
 
-.fw-bold{
-    font-weight: 600;
+.fw-bold {
+  font-weight: 600;
 }
 
 nav {
@@ -84,8 +85,8 @@ nav ul {
   text-align: center;
 }
 
-.hero img{
-    width: 70%;
+.hero img {
+  width: 70%;
 }
 
 .hero p {
@@ -102,9 +103,107 @@ nav ul {
 
 .card-header {
   border: 1px solid black;
-  padding:5px 15px;
+  padding: 5px 15px;
   border-radius: 10px;
   width: fit-content;
   margin: 0 auto;
   font-weight: 600;
+}
+
+select {
+  border: 2px solid gray;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: #444343;
+}
+
+.select {
+  text-align: center;
+}
+
+.apply section,
+.logo-gen section {
+  background-color: darkorange;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.apply section img {
+  display: inline-block;
+  width: 50px;
+}
+
+.apply section .title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mu-campus {
+  padding: 0 10px;
+  margin: 5px 0;
+}
+
+.mu-campus .number {
+  background-color: orange;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mu-campus .title {
+  color: orange;
+}
+
+.logo-gen section {
+  text-align: left;
+}
+
+.logo-gen section p {
+  margin: 10px 0;
+}
+.logo-gen section a {
+  background-color: white;
+  color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #444343;
+  color: white;
+  padding: 10px 20px;
+}
+
+footer img {
+  height: 30px;
+  width: auto;
+  display: inline-block;
+}
+
+footer *{
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 15px 5px;
+}
+
+footer .links, .address{
+    width: 50%;
+}
+
+footer .copy{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+footer a:hover{
+    color: orange;
+    transition: all 0.5s;
 }
