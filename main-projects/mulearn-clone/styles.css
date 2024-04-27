@@ -280,6 +280,10 @@ footer a:hover {
     text-align: left;
   }
 
+  .hero img{
+    width: 50%;
+  }
+
   .hero div {
     width: 50%;
   }
@@ -287,7 +291,7 @@ footer a:hover {
     padding: 0 30px;
   }
   .card {
-    width: 60%;
+    width: 50%;
     margin: 0;
   }
 
@@ -322,7 +326,7 @@ footer a:hover {
   .logo-gen img {
     width: 40%;
   }
-  
+
   .logo-gen .apply .title {
     font-size: 28px;
   }
