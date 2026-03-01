@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 9: Advanced Application Form</title>
+</head>
+<body>
+    <h1>Task 9: Job Application Form</h1>
+    <p>This is a "Real-World" form that utilizes multiple HTML5 input types to create a comprehensive data entry experience.</p>
+
+    <form action="#">
+        <div>
+            <label for="app-name">Full Name:</label>
+            <input type="text" id="app-name" name="app-name" placeholder="John Doe" required>
+        </div>
+        <br>
+        
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <br>
+
+        <div>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+        </div>
+        <br>
+
+        <div>
+            <label for="experience">Years of Experience (0-20):</label>
+            <input type="range" id="experience" name="experience" min="0" max="20" value="0">
+        </div>
+        <br>
+
+        <div>
+            <label for="website">Portfolio Website:</label>
+            <input type="url" id="website" name="website" placeholder="https://example.com">
+        </div>
+        <br>
+
+        <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+        </div>
+        <br>
+
+        <div>
+            <label for="fav-color">Choose your profile theme color:</label>
+            <input type="color" id="fav-color" name="fav-color" value="#6366f1">
+        </div>
+        <br>
+
+        <div>
+            <label for="availability">Start Time:</label>
+            <input type="time" id="availability" name="availability">
+        </div>
+        <br>
+
+        <p>Would you like to subscribe to our newsletter?</p>
+        <input type="checkbox" id="news" name="news">
+        <label for="news">Yes, keep me updated!</label>
+        <br><br>
+
+        <div>
+            <button type="reset">Clear Form</button>
+            <button type="submit">Submit Application</button>
+        </div>
+    </form>
+</body>
+</html>

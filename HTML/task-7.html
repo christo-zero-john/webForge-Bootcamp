@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 7: Basic Feedback Form</title>
+  </head>
+  <body>
+    <h1>Task 7: Feedback Form</h1>
+    <p>
+      This page demonstrates a basic HTML form with standard input types like
+      text, email, and password, along with a textarea for longer comments.
+    </p>
+
+    <form action="#">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <br />
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <br />
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" cols="30"></textarea>
+      </div>
+      <br />
+      <div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

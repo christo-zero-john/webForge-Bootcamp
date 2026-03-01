@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 11: Product Review Form</title>
+  </head>
+  <body>
+    <h1>Task 11: Product Review</h1>
+    <p>
+      This example demonstrates a feedback system where users can rate products,
+      upload photos, and provide detailed reviews.
+    </p>
+
+    <form action="#">
+      <div>
+        <label for="product-select">Select Product:</label>
+        <select id="product-select" name="product-select">
+          <option value="laptop">Gaming Laptop</option>
+          <option value="phone">Smartphone X</option>
+          <option value="headphones">Noise Cancelling Headphones</option>
+        </select>
+      </div>
+      <br />
+
+      <div>
+        <label for="rating">Rating (1-10):</label>
+        <input
+          type="range"
+          id="rating"
+          name="rating"
+          min="1"
+          max="10"
+          value="8"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="review-title">Review Title:</label>
+        <input
+          type="text"
+          id="review-title"
+          name="review-title"
+          placeholder="Amazing quality!"
+          required
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="review-body">Detailed Review:</label><br />
+        <textarea
+          id="review-body"
+          name="review-body"
+          rows="6"
+          cols="60"
+          required
+        ></textarea>
+      </div>
+      <br />
+
+      <div>
+        <label for="photo">Upload Product Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*" />
+      </div>
+      <br />
+
+      <div>
+        <input type="checkbox" id="recommend" name="recommend" />
+        <label for="recommend">I recommend this product to others</label>
+      </div>
+      <br />
+
+      <div>
+        <button type="reset">Discard</button>
+        <button type="submit">Post Review</button>
+      </div>
+    </form>
+  </body>
+</html>

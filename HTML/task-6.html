@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Task 6: Mastering Media on the Web</title>
+  </head>
+  <body>
+    <h1>Task 6: Images, Audio, and Video</h1>
+    <p>We are still structuring the "bones" right now.</p>
+
+    <h2>Before We Start: Organizing Your Files</h2>
+    <p>
+      In real-world projects, you don't just throw all your files into one big
+      folder. You need to stay organized. Create a main folder called
+      <strong>assets</strong> for all the images, videos, audios you would use.
+      Inside that folder, create two subfolders: one named
+      <strong>img</strong> (for images) and one named <strong>vid</strong> (for
+      videos) or whatever name you like.
+    </p>
+    <p>
+      When you use local files from those folders, you will use
+      <em>relative paths</em> (like <code>src="assets/img/myphoto.jpg"</code>).
+    </p>
+
+    <hr />
+
+    <h2>Part 1: The Image Tag</h2>
+    <p>
+      The Image tag is self-closing and requires an
+      <code>src</code> attribute to tell the browser where the image lives, and
+      an <code>alt</code> attribute for accessibility.
+    </p>
+
+    <img
+      src="https://picsum.photos/400/200?random=1"
+      alt="Random placeholder image 1"
+    />
+    <img
+      src="https://picsum.photos/400/200?random=2"
+      alt="Random placeholder image 2"
+    />
+    <img
+      src="https://picsum.photos/400/200?random=3"
+      alt="Random placeholder image 3"
+    />
+    <img
+      src="https://picsum.photos/400/200?random=4"
+      alt="Random placeholder image 4"
+    />
+    <br />
+    <img
+      src="https://picsum.photos/400/200?random=5"
+      alt="Random placeholder image 5"
+    />
+    <img
+      src="https://picsum.photos/400/200?random=6"
+      alt="Random placeholder image 6"
+    />
+    <img
+      src="https://picsum.photos/400/200?random=7"
+      alt="Random placeholder image 7"
+    />
+    <img
+      src="https://pidcsum.photos/400/200?random=8"
+      alt="Random placeholder image 8"
+    />
+    <img
+      src="https://picsudm.photos/400/200?random=9"
+      alt="Random placeholder image 9"
+    />
+
+    <hr />
+
+    <h2>Part 2: Embedding YouTube Videos using Iframe</h2>
+    <p>
+      To put a YouTube video on your site, you use an Iframe. This essentially
+      cuts a window into your webpage to display another webpage inside it.
+    </p>
+
+    <iframe
+      width="400"
+      height="225"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY"
+      title="YouTube Video 1"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="400"
+      height="225"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="YouTube Video 2"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="400"
+      height="225"
+      src="https://www.youtube.com/embed/kJQP7kiw5Fk"
+      title="YouTube Video 3"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="400"
+      height="225"
+      src="https://www.youtube.com/embed/9bZkp7q19f0"
+      title="YouTube Video 4"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+    <iframe
+      width="400"
+      height="225"
+      src="https://www.youtube.com/embed/3JZ_D3ELwOQ"
+      title="YouTube Video 5"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+
+    <hr />
+
+    <h2>Part 3: The HTML5 video Tag</h2>
+    <p>
+      If you are hosting your own video files (like the ones you would put in
+      your <code>assets/vid</code> folder), you use the native video tag. You
+      must include the <code>controls</code> attribute, or the user won't have
+      any way to press play!
+    </p>
+
+    <video width="400" controls>
+      <source
+        src="https://www.w3schools.com/html/mov_bbb.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support HTML video.
+    </video>
+
+    <video width="400" controls>
+      <source
+        src="https://media.w3.org/2010/05/sintel/trailer.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support HTML video.
+    </video>
+
+    <video width="400" controls>
+      <source src="https://vjs.zencdn.net/v/oceans.mp4" type="video/mp4" />
+      Your browser does not support HTML video.
+    </video>
+
+    <video width="400" controls>
+      <source
+        src="https://media.w3.org/2010/05/video/movie_300.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support HTML video.
+    </video>
+
+    <video width="400" controls>
+      <source
+        src="https://media.w3.org/2010/05/bunny/trailer.mp4"
+        type="video/mp4"
+      />
+      Your browser does not support HTML video.
+    </video>
+  </body>
+</html>
